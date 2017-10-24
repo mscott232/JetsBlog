@@ -1,0 +1,368 @@
+/* Common css */
+
+html
+{
+	padding: 20px;
+	background-color: #A5AAAE;
+}
+
+body
+{
+	width: 900px;
+	margin: 0px auto;
+	background-color: #013E7F;
+	border: 2px solid #000;
+	padding-top: 15px;
+	font-family: verdana;
+}
+
+#header
+{
+	width: 825px;
+	height: 100px;
+	margin: 0px auto;
+	border: 2px solid #000;
+	position: relative;
+	background: linear-gradient(to top, #C1122F 0%,#82001D 100%);
+}
+
+#titleheading h1
+{
+	text-align: center;
+	margin-bottom: 0px;
+	text-shadow: 2px 2px #000;
+	color: #013E7F;
+}
+
+#titleheading h4
+{
+	text-align: center;
+	margin-top: 1px;
+	text-shadow: 1px 1px #000;
+	color: #013E7F;
+}
+
+#shoulderpatch
+{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#jetslogo
+{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#navigation
+{
+	text-align: center;
+	width: 825px;
+	margin-top: 3.55%;
+}
+
+#navigation ul
+{
+	width: 560px;
+	padding-left: 0px;
+	margin: 0px auto;
+	border: 2px solid #000;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #C1122F;
+}
+
+#navigation li
+{
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#navigation li a
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#navigation li a:visited, #navigation li a:active, #navigation li a:link
+{
+	color: #013E7F;
+}
+
+#navigation li a:hover, #navigation li a:focus
+{
+	color: #FFF;
+	background-color: #A5AAAE;
+}
+
+footer
+{
+	width: 450px;
+	height: 15px;
+	margin: 0px auto -1px auto;
+	border: 1px solid #000;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #C1122F;
+	clear: both;
+}
+
+#footernav
+{
+	text-align: center;
+	font-size: .75em;
+	margin-top: -13px;
+}
+
+#footernav ul
+{
+	padding-left: 0px;
+	padding-top: .51%;
+}
+
+#footernav ul li
+{
+	display: inline;
+	line-height: 15px;
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
+#footernav ul li a
+{
+	text-decoration: none;
+	line-height: 13px;
+}
+
+#footernav li a:visited, #footernav li a:active, #footernav li a:link
+{
+	color: #013E7F;
+}
+
+#footernav li a:hover, #footernav li a:focus
+{
+	color: #FFF;
+	background-color: #A5AAAE;
+}
+
+#content
+{
+	width: 825px;
+	margin: 10px auto 20px auto;
+	padding-top: 20px;
+	position: relative;
+}
+
+/* index page */
+#description
+{
+	width: 400px;
+	float: left;
+	border: 1px solid #000;
+	background-color: #A5AAAE;
+	text-align: center;
+}
+
+#rules
+{
+	width: 400px;
+	float: right;
+	border: 1px solid #000;
+	background-color: #A5AAAE;
+	text-align: center;
+}
+
+#description h3, #rules h4
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #E03A3E;
+	text-shadow: 1px 1px #000;
+}
+
+#description p, #rules p
+{
+	width: 375px;
+	margin: 0px auto;
+	padding-bottom: 10px;
+}
+
+#recentposts
+{
+    margin: 0px auto;
+    background-color: #A5AAAE;
+    width: 650px;
+    clear: both;
+}
+
+#recentpost
+{
+    border: 1px solid #000;
+}
+
+/* new post page */
+#posting
+{
+    margin: 0px auto;
+    background-color: #A5AAAE;
+    width: 650px;
+}
+
+#posting textarea
+{
+    width: 600px;
+    height: 200px;
+    margin-left: 20px;
+    border: 1px solid #000;
+}
+
+#posting label
+{
+    margin-left: 10px;
+}
+
+#posting #title
+{
+    margin-left: 20px;
+    border: 1px solid #000;
+    width: 250px;
+}
+
+#posting #submitbutton
+{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/* login page */
+#login
+{
+    margin: 0px auto;
+    background-color: #A5AAAE;
+    width: 650px;
+}
+
+/* posts page */
+#allposts
+{
+    margin: 0px auto;
+    background-color: #A5AAAE;
+    width: 650px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+#orderby
+{
+    background-color: #A5AAAE;
+}
+
+#orderby ul
+{
+    text-align: center;
+}
+
+#orderby li
+{
+    display: inline;
+}
+
+#orderby li:after
+{
+    content: "|";
+    color: #000;
+}
+
+#orderby li:last-of-type:after
+{
+    content: "";
+}
+
+#orderby li a
+{
+    text-decoration: none;
+}
+
+#singlepost
+{
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+/* fullpost page */
+#selectedpost
+{
+    margin: 0px auto;
+    background-color: #A5AAAE;
+    width: 650px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#selectedpost p
+{
+    border: 1px solid #000;
+}
+
+#makecomment, #comments
+{
+    margin: 10px auto;
+    background-color: #A5AAAE;
+    width: 650px;
+}
+
+#makecomment textarea
+{
+    width: 600px;
+    height: 200px;
+    margin-left: 20px;
+    border: 1px solid #000;
+}
+
+#comments
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#singlecomment
+{
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+/* Search Page */
+#searcharea
+{
+    margin-bottom: 5px;
+}
+
+/* Admin Page*/
+#usertable
+{
+	margin: 0px auto;
+	background-color: #A5AAAE;
+	width: 650px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#usertable table, th, td
+{
+	margin: 10px auto;
+	border: 1px solid black;
+}
+
+#usertable p
+{
+	text-align: center;
+}
